@@ -6,7 +6,7 @@ import rainbowhat as rh
 
 class LedStrip(Block):
 
-    version = VersionProperty('0.1.0')
+    version = VersionProperty("0.1.0")
     pixelrgb0 = Property(title='pixel 0 r g b', default='{{(0, 0, 0)}}')
     pixelrgb1 = Property(title='pixel 1 r g b', default='{{(0, 0, 0)}}')
     pixelrgb2 = Property(title='pixel 2 r g b', default='{{(0, 0, 0)}}')
