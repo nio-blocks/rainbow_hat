@@ -22,8 +22,8 @@ class TestTemperatureSensor(NIOBlockTestCase):
             blk.start()
             blk.process_signals([Signal({'incoming': 'pewpew'})])
             blk.stop()
-            mock_weather.pressure.assert_called()
-            mock_weather.temperature.assert_called()
+            mock_weather.pressure.assert_called_with()
+            mock_weather.temperature.assert_called_with()
             self.assertDictEqual(
                 {'temp_C': ANY, 'pressure_Pa': ANY},
                 self.last_notified[DEFAULT_TERMINAL][0].to_dict())

@@ -37,7 +37,7 @@ class TestLedStrip(NIOBlockTestCase):
             blk.process_signals([Signal({})])
             blk.stop()
             mock_led.set_pixel.assert_called_with(6, 7, 7, 7)
-            mock_led.show.assercalled()
+            mock_led.show.assert_called_with()
             self.assertDictEqual(
                 self.last_notified[DEFAULT_TERMINAL][0].to_dict(),
                 {})

@@ -23,7 +23,7 @@ class TestFloatDisplay(NIOBlockTestCase):
             blk.process_signals([Signal({})])
             blk.stop()
             mock_display.print_float.assert_called_with(800.8)
-            mock_display.show.assert_called()
+            mock_display.show.assert_called_with()
             self.assertDictEqual(
                 self.last_notified[DEFAULT_TERMINAL][0].to_dict(),
                 {})

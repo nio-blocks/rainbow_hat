@@ -24,7 +24,7 @@ class TestBuzzer(NIOBlockTestCase):
             blk.start()
             blk.process_signals([Signal({})])
             blk.stop()
-            mock_buzz.note.assert_called()
+            mock_buzz.note.assert_called_with(261.0, 1.0)
             mock_buzz.note.assert_called_with(261, 1)
             self.assertDictEqual(
                 self.last_notified[DEFAULT_TERMINAL][0].to_dict(),
