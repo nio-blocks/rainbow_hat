@@ -2,7 +2,9 @@
   "nio/AlphaDisplay": {
     "version": "0.1.0",
     "description": "The AlphaDisplay block will display a character string onto the display of the RainbowHat.",
-    "categories": [],
+    "categories": [
+      "Hardware"
+    ],
     "properties": {
       "words": {
         "title": "Words to Screen",
@@ -26,7 +28,9 @@
   "nio/AndroidThingsButton": {
     "version": "0.1.0",
     "description": "",
-    "categories": [],
+    "categories": [
+      "Hardware"
+    ],
     "properties": {
       "button_selected": {
         "title": "Button",
@@ -49,7 +53,9 @@
   "nio/AndroidThingsRGB": {
     "version": "0.1.0",
     "description": "",
-    "categories": [],
+    "categories": [
+      "Hardware"
+    ],
     "properties": {
       "blue": {
         "title": "Blue",
@@ -81,7 +87,9 @@
   "nio/Buzzer": {
     "version": "0.1.0",
     "description": "The Buzzer block will play a sound at a specified frequency and duration.",
-    "categories": [],
+    "categories": [
+      "Hardware"
+    ],
     "properties": {
       "duration": {
         "title": "Note Duration (s)",
@@ -111,7 +119,9 @@
   "nio/FloatDisplay": {
     "version": "0.1.0",
     "description": "The FloatDisplay block will display a float onto the display of the RainbowHat.",
-    "categories": [],
+    "categories": [
+      "Hardware"
+    ],
     "properties": {
       "numbers": {
         "title": "Numbers to Screen",
@@ -135,7 +145,9 @@
   "nio/LedStrip": {
     "version": "0.1.0",
     "description": "The LedStrip block will control the 7 leds of the RainbowHat.",
-    "categories": [],
+    "categories": [
+      "Hardware"
+    ],
     "properties": {
       "pixelrgb0": {
         "title": "pixel 0 r g b",
@@ -195,7 +207,9 @@
   "nio/TemperatureSensor": {
     "version": "0.1.0",
     "description": "The TemperatureSensor block will notify a signal containing the temperature and pressure of the RainbowHat.",
-    "categories": [],
+    "categories": [
+      "Hardware"
+    ],
     "properties": {
       "enrich": {
         "title": "Signal Enrichment",
