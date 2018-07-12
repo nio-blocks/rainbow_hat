@@ -8,7 +8,7 @@ import rainbowhat as rh
 
 class AndroidThingsRGB(TerminatorBlock):
 
-    version = VersionProperty('0.1.0')
+    version = VersionProperty("0.1.0")
 
     red = Property(title='Red', default=False, order=0)
     green = Property(title='Green', default=False, order=1)
