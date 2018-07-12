@@ -6,7 +6,7 @@ import rainbowhat as rh
 
 class Buzzer(Block):
 
-    version = VersionProperty('0.1.0')
+    version = VersionProperty("0.1.0")
     frequency = FloatProperty(title='Note Freuquency (Hz)', default=261)
     duration = FloatProperty(title='Note Duration (s)', default=1)
 
