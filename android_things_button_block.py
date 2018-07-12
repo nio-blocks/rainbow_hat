@@ -16,7 +16,7 @@ class ButtonSelector(Enum):
 @output('pressed', label='Pressed')
 class AndroidThingsButton(GeneratorBlock):
 
-    version = VersionProperty('0.1.0')
+    version = VersionProperty("0.1.0")
 
     button_selected = SelectProperty(
         ButtonSelector,
