@@ -1,32 +1,37 @@
 {
   "nio/AlphaDisplay": {
     "language": "Python",
-    "url": "git://github.com/ssclay/RainbowHat.git",
+    "url": "git://github.com/nio-blocks/rainbow_hat.git",
     "version": "0.1.0"
   },
-  "nio/Button": {
+  "nio/AndroidThingsButton": {
     "language": "Python",
-    "url": "git://github.com/ssclay/RainbowHat.git",
+    "url": "git://github.com/nio-blocks/rainbow_hat.git",
+    "version": "0.1.0"
+  },
+  "nio/AndroidThingsRGB": {
+    "language": "Python",
+    "url": "git://github.com/nio-blocks/rainbow_hat.git",
     "version": "0.1.0"
   },
   "nio/Buzzer": {
     "language": "Python",
-    "url": "git://github.com/ssclay/RainbowHat.git",
+    "url": "git://github.com/nio-blocks/rainbow_hat.git",
     "version": "0.1.0"
   },
   "nio/FloatDisplay": {
     "language": "Python",
-    "url": "git://github.com/ssclay/RainbowHat.git",
+    "url": "git://github.com/nio-blocks/rainbow_hat.git",
     "version": "0.1.0"
   },
   "nio/LedStrip": {
     "language": "Python",
-    "url": "git://github.com/ssclay/RainbowHat.git",
+    "url": "git://github.com/nio-blocks/rainbow_hat.git",
     "version": "0.1.0"
   },
   "nio/TemperatureSensor": {
     "language": "Python",
-    "url": "git://github.com/ssclay/RainbowHat.git",
+    "url": "git://github.com/nio-blocks/rainbow_hat.git",
     "version": "0.1.0"
   }
 }

@@ -20,22 +20,47 @@ None
 
 ***
 
-Button
-======
-The Button block will notify a signal at the push of a button on the RainbowHat.
+AndroidThingsButton
+===================
+The AndoridThings Button Block will output signals to specify when an configured Rainbow Hat button has been pressed and released. The button can be specified to check 'A', 'B', or 'C' for press and release events
+
 
 Properties
 ----------
-None
+- **button_selected**: 
 
 Inputs
 ------
-- **none**: 
+None
 
 Outputs
 -------
-- **channel**: The channel of the button that has been pressed or released (A, B, or C).
-- **value**: True, if the button has been pressed. False, if the button has been released.
+- **Pressed**: 
+- **Released**: 
+
+Commands
+--------
+None
+
+***
+
+AndroidThingsRGB
+================
+The AndroidThingsRGB Block will accept signals to turn the RGB LEDS located above the 'A', 'B', and 'C' buttons on or off. The Red, Green, and Blue properties accept boolean 'True' or 'False' to turn the light on or off.
+
+Properties
+----------
+- **blue**: 
+- **green**: 
+- **red**: 
+
+Inputs
+------
+- **default**: 
+
+Outputs
+-------
+None
 
 Commands
 --------
@@ -130,8 +155,7 @@ Inputs
 
 Outputs
 -------
-- **pressure_Pa**: The pressure of the RainbowHat in Pascal.
-- **temp_C**: The temperature of the RainbowHat in Celsius.
+- **default**: 
 
 Commands
 --------

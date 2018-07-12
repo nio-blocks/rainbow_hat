@@ -23,25 +23,59 @@
     },
     "commands": {}
   },
-  "nio/Button": {
+  "nio/AndroidThingsButton": {
     "version": "0.1.0",
-    "description": "The Button block will notify a signal at the push of a button on the RainbowHat.",
+    "description": "",
     "categories": [],
-    "properties": {},
-    "inputs": {
-      "none": {
+    "properties": {
+      "button_selected": {
+        "title": "Button",
+        "type": "SelectType",
+        "description": "",
+        "default": "A"
+      }
+    },
+    "inputs": {},
+    "outputs": {
+      "Pressed": {
+        "description": ""
+      },
+      "Released": {
         "description": ""
       }
     },
-    "outputs": {
-      "channel": {
-        "description": "The channel of the button that has been pressed or released (A, B, or C)."
+    "commands": {}
+  },
+  "nio/AndroidThingsRGB": {
+    "version": "0.1.0",
+    "description": "",
+    "categories": [],
+    "properties": {
+      "blue": {
+        "title": "Blue",
+        "type": "Type",
+        "description": "",
+        "default": false
       },
-      "value": { 
-        "description": "True, if the button has been pressed. False, if the button has been released."
-
+      "green": {
+        "title": "Green",
+        "type": "Type",
+        "description": "",
+        "default": false
+      },
+      "red": {
+        "title": "Red",
+        "type": "Type",
+        "description": "",
+        "default": false
       }
     },
+    "inputs": {
+      "default": {
+        "description": ""
+      }
+    },
+    "outputs": {},
     "commands": {}
   },
   "nio/Buzzer": {
@@ -168,8 +202,8 @@
         "type": "ObjectType",
         "description": "",
         "default": {
-          "enrich_field": "",
-          "exclude_existing": true
+          "exclude_existing": true,
+          "enrich_field": ""
         }
       }
     },
@@ -179,12 +213,8 @@
       }
     },
     "outputs": {
-      "temp_C": {
-        "description": "The temperature of the RainbowHat in Celsius."
-      },
-      "pressure_Pa":{
-        "description": "The pressure of the RainbowHat in Pascal."
-
+      "default": {
+        "description": ""
       }
     },
     "commands": {}
