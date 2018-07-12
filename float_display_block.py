@@ -7,7 +7,7 @@ import rainbowhat as rh
 
 class FloatDisplay(Block):
 
-    version = VersionProperty('0.1.0')
+    version = VersionProperty("0.1.0")
     numbers = Property(title="Numbers to Screen", default=None, allow_none=True)
 
     def configure(self, context):
