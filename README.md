@@ -1,3 +1,6 @@
+This repo contains blocks for operating the various functions of the pimoroni rainbowhat. The rainbowhat python module requires dependencies that are not pip installable. Directions to install prerequisites for the rainbowhat package can be found [here].(https://github.com/pimoroni/rainbow-hat)
+
+
 AlphaDisplay
 ============
 The AlphaDisplay block will display a character string onto the display of the RainbowHat.
