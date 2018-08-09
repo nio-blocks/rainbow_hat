@@ -1,1 +1,1 @@
-rainbowhat
+rainbowhat~=0.1
